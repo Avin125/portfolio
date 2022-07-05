@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body {
+    text-align: center;
+    margin: 0;
+    background-color: darkgray;
+}
+
+.menu {
+    position: fixed;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.links {
+    display: inline;
+    padding: 30px;
+    padding-right: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 17, 226);
+    text-shadow: 2px 2px rgba(36, 15, 15, 0.473);
+}
+
+.links:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+#Welcome {
+    background: linear-gradient(#e50303, rgb(0 0 0));
+    color: rgb(245 2 249 / 82%);
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#name{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bio{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 50px;
+}
+.line{
+    height: 2px;
+    background-color: black;
+    width: 80px;
+    margin: auto;
+}
+p{
+    font-size: 25px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: rgb(7, 184, 60);
+}
+#contact{
+    background-color:rgba(117, 9, 9, 0.849);
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
